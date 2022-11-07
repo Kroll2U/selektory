@@ -1,0 +1,62 @@
+.skip-this-file {}
+
+body {
+    /*background-color: #eee;*/
+}
+
+aside {
+    padding-top: 30px;
+}
+
+#selectors-2 article, #selectors-2 section {
+    display: block !important;
+    width: 45%;
+    margin: 20px 5px 0 0;
+    padding: 20px;
+    float: left;
+    clear: none;
+    border: 1px solid red;
+}
+
+section h2 {
+ color: red;
+}
+
+section  p {
+    color: blue;
+}
+
+
+
+article h2 {
+    color: red;
+}
+
+article h3 {
+    color: aquamarine;
+}
+
+article p {
+    background-color: red;
+}
+article  [title="background-color: pink;"]{
+    background-color: pink;
+}
+article ol {
+    font-style: italic;
+
+}
+
+section li{
+    border-top: 1px solid;
+
+}
+
+section + li {
+
+    border-top: 0px;
+}
+
+aside p {
+    color: black;
+}
